@@ -43,6 +43,12 @@ li {
   grid-gap: 3px;
 }
 
+.grid2 {
+  display: grid;
+  grid-template: repeat(1, 1fr) /repeat(3, 1fr);
+  grid-gap: 3px;
+}
+
 /*.about {*/
 
 /*}*/
@@ -78,4 +84,15 @@ footer {
   padding-bottom: 20px;
   min-height:100px;
   margin: 0px;
+}
+
+footer li {
+  float: left;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+}
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
 }
