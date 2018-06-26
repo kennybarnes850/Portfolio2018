@@ -1,5 +1,5 @@
-# PortfolioV2
-Static portfolio version 2 with updated projects
+# Portfolio
+Static portfolio with updated projects
 
  Personal Portfolio
 
@@ -66,4 +66,4 @@ Visit here: [Portfolio](http://shirletterly.com/)
 
 
 ### Please visit my personal profile to see more current projects.
-- [Shirlette Chambers](https://github.com/Shirlazybrat)
+- [Kenneth Barnes](https://github.com/Shirlazybrat)
