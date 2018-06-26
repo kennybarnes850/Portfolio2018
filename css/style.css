@@ -1,0 +1,163 @@
+
+body {
+  /*position: relative;*/
+  text-align: center;
+}
+
+
+.wrapper {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  min-height:500px;
+  margin: 0px;
+  min-height:100vh;
+}
+
+/*nav {*/
+  /*border-bottom: 5px solid #ced3dd;*/
+/*}*/
+
+div.background1 {
+  background-image: url(../images/bgImages/WOC-hands.jpg);
+  position: relative;
+  background-size: cover;
+  /*opacity: 0.6;*/
+  z-index: -1;
+}
+
+/*div.clearbox {*/
+  /*background-color: #ff237b;*/
+  /*border: 1px solid black;*/
+  /*opacity: 0.6;*/
+  /*filter: alpha(opacity=60); !* For IE8 and earlier *!*/
+/*}*/
+
+.layer {
+  /*background-color: #ff237b;*/
+  /*position: absolute;*/
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.black {
+  background: #160100;
+  color: #ffffff;
+}
+
+.progress {
+  margin: 10px 0px 10px 0px;
+}
+
+.card.mb-3 {
+  max-width: 20rem;
+}
+
+#myModal {
+  color: #160100;
+}
+.dev {
+  height: 80px;
+  width: 80px;
+}
+
+/*h2, h3 {*/
+  /*text-align: center;*/
+  /*font-family: 'Playfair Display', serif;*/
+/*}*/
+
+/*p {*/
+  /*text-align: center;*/
+  /*font-family: 'IM Fell French Canon SC', serif;*/
+/*}*/
+
+li {
+  list-style: none;
+  display: inline;
+  /*font-family: 'Marck Script', cursive;*/
+}
+
+/*hr {*/
+  /*width: 200px;*/
+/*}*/
+
+.grid {
+  display: grid;
+  grid-template: repeat(2, 1fr) /repeat(3, 1fr);
+  grid-gap: 3px;
+}
+
+/*.about {*/
+
+/*}*/
+
+/*.skills {*/
+
+/*}*/
+
+/*.more {*/
+
+/*}*/
+
+/*.projects {*/
+
+/*}*/
+
+/*.resume {*/
+
+/*}*/
+
+/*.blog {*/
+
+/*}*/
+
+/*.contact {*/
+
+/*}*/
+
+footer {
+  text-align: left;
+  padding-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height:100px;
+  margin: 0px;
+}
+
+/*//////////////////////Typewiter text/////////////////////////////////////////////*/
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #ff237b; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: /*cursor will stop at the end of the div */
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ff237b; }
+}
+
+/*///////////////////////////////////////////////////////////////////////*/
+
+/*using flexbox and CSS Grid*/
+/*https://coolors.co/ff237b-ced3dd-89efff-160100-a366ff*/
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'IM Fell French Canon SC', serif;
+font-family: 'Marck Script', cursive; */
+
+ */

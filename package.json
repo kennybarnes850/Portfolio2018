@@ -1,0 +1,22 @@
+{
+  "name": "portfoliov2",
+  "version": "1.0.0",
+  "description": "Personal Portfolio to showcase experience and skills",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shirlazybrat/PortfolioV2.git"
+  },
+  "author": "Shirlette Chambers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shirlazybrat/PortfolioV2/issues"
+  },
+  "homepage": "https://github.com/Shirlazybrat/PortfolioV2#readme",
+  "dependencies": {
+    "multiscroll.js": "^0.2.1"
+  }
+}
